@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EEVFK2A331M
+D SMD Aluminium Electrolytic Capacitor,Radial Can - SMD, 330 F, 100 V, FK Series
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf
+$ENDCMP
+#
+#End Doc Library
