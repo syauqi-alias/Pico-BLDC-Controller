@@ -6,4 +6,5 @@
   (lib (name "RP2350_60QFN_minimal")(type "KiCad")(uri "${KIPRJMOD}/Library/RP2350_60QFN_minimal.pretty")(options "")(descr ""))
   (lib (name "LMR38020_footprints")(type "KiCad")(uri "${KIPRJMOD}/Library/LMR38020/LMR38020_footprints.pretty")(options "")(descr ""))
   (lib (name "DRV8350S")(type "KiCad")(uri "${KIPRJMOD}/Library/ul_DRV8350HRTVR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Connector_JST.3dshapes")(type "KiCad")(uri "${KIPRJMOD}/Library/Connector_JST.3dshapes/Connector_JST.3dshapes")(options "")(descr ""))
 )
