@@ -1,62 +1,67 @@
-"Reference","Qty","Value","Footprint","Datasheet","MPN","MPN2"
-"C1,C19","2","10u","Capacitor_SMD:C_0805_2012Metric","~","DNP",""
-"C2,C8,C11,C12,C13,C14,C15,C16,C17,C18,C27,C40,C45,C46,C47","15","100nF","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","C0603C104K5RACAUTO",""
-"C3,C4","2","15p","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","06033A150JAT2A",""
-"C5,C49","2","2.2uF","Capacitor_SMD:C_1210_3225Metric","~","HMK325B7225KN-T",""
-"C6,C7,C9,C10,C33","5","4.7uF","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","MCASL168BD7475KTCA01",""
-"C20","1","10uF 100V","Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder","~","CGA9N3X7S2A106K230KE",""
-"C21,C29,C41","3","0.1uF 100V","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","HMK107B7104KAHT",""
-"C22","1","0.047uF","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~","C2012X7R2A473K125AA",""
-"C23,C24,C25,C26","4","1uF 100V","Capacitor_SMD:C_1206_3216Metric","~","CL31B105KCHNNNE ",""
-"C28,C39,C50","3","47uF","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","~"," GRM32ER61C476KE15L ",""
-"C30,C34,C35","3","1uF","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","GRM188D72A105KE01J",""
-"C31","1","120pF","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"," KGM15ACG1H121JT",""
-"C32","1","22uF","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","GRM188R60J226MEA0D",""
-"C36,C37,C38,C48","4","1uF 16V","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","GXT188R71C105KE13D",""
-"C42","1","4.7uF","Capacitor_SMD:C_1210_3225Metric","~","KAM32LR72A475KU",""
-"C43,C44","2","330uF 100V","EEVFK2A331M:EEEFK0J103SM","~","EEV-FK2A331M",""
-"C51,C52","2","10uF","Capacitor_SMD:C_0805_2012Metric","~","EMK212BB7106KG-T ",""
-"D1","1","SS14","Diode_SMD:D_SMA","https://www.vishay.com/docs/88746/ss12.pdf","SS14",""
-"D2","1","SS12","Diode_SMD:D_SMA","https://www.vishay.com/docs/88746/ss12.pdf","SS12",""
-"F1","1","Fuse","Fuse:Fuse_Schurter_UMZ250","~","0463030.ER",""
-"J1","1","Conn_01x02","Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical","https://lcsc.com/product-detail/plug_Changzhou-Amass-Elec-XT30U-M_C99101.html?s_z=n_XT30U","XT30U-M",""
-"J2","1","Conn_01x03","Connector_AMASS:AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal","https://lcsc.com/product-detail/plug_Changzhou-Amass-Elec-MR30PW-F20-G-Y_C19268035.html?s_z=n_MR30PW-FB","MR30PW-F20.G.Y",""
-"J3","1","Conn_01x05","Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical","~"," 22-11-2052","22-01-2051 "
-"J4","1","SM03B-SRSS-TB","Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal","~","SM03B-SRSS-TB(LF)(SN) ",""
-"J5","1","USB_C_Receptacle_USB2.0_14P","Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12","https://www.usb.org/sites/default/files/documents/usb_type-c.zip","TYPE-C-31-M-12",""
-"J6","1","Heat Mat","Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical","https://docs.rs-online.com/bb5a/A700000008849874.pdf","217796-1021 ",""
-"J7","1","ZJY130-2864KSWLG22","Amphenol_FPC_16:AMPHENOL_F3311A7H121016E200","~","F3311A7H121016E200",""
-"J8","1","I2C CONN","Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical","~","22-11-2042",""
-"L1","1","3.3uH","RP2350_60QFN_minimal:L_pol_2016","~","AOTA-B201610S3R3-101-T",""
-"L2","1","470nH","Inductor_SMD_Wurth:L_Wurth_WE-LQSH-2010","~","74479275147",""
-"L3","1","15uH","Inductor_SMD:L_Coilcraft_MSS1210-XXX","~","MSS1210-153MED",""
-"L4","1","15uH","Inductor_SMD:L_Coilcraft_MSS1038-XXX","~","MSS1038-153MLB",""
-"Q1,Q2,Q3,Q4,Q5,Q6","6","SIR680LDP","Package_SO:PowerPAK_SO-8_Single","https://www.farnell.com/datasheets/3158447.pdf","SIR680LDP",""
-"Q7","1","DMN3053L-7","Package_TO_SOT_SMD:SOT-23","http://www.diodes.com/assets/Datasheets/ds31347.pdf"," DMN3053L-7",""
-"R1,R23","2","100k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","CRCW0603100KFKEA",""
-"R2,R3,R4,R6,R15,R16,R17","7","1k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","RC0603FR-101KL ",""
-"R5","1","33","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","AC0603DR-0733RL ",""
-"R7,R8","2","27","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","CR0603-JW-270ELF ",""
-"R9,R10,R29","3","5.1k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","CR0603-FX-5101ELF ",""
-"R11,R19,R20,R21","4","10k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"," AC0603JR-7W10KL,CRCW060310K0FKEI",""
-"R12,R13,R14","3","2m","Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder","~","WSLP25122L000FEA",""
-"R18","1","40.2k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","CR0603-FX-4022ELF ",""
-"R22","1","453k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","CR0603-FX-4533ELF ",""
-"R24","1","100k","Resistor_SMD:R_0805_2012Metric","~","RP0805BRD07100KL",""
-"R25","1","64.9k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","CRCW060364K9FKEA",""
-"R26","1","422k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","ERJ-3EKF4223V ",""
-"R27","1","22.1k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","CRCW060322K1FKEBC",""
-"R28","1","680k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","CRCW0603680KFKEAHP",""
-"R30,R31","2","4.7k","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","RC0603FR-7W4K7L ",""
-"SW1,SW2","2","SW_Push","Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816","~","434133025816",""
-"SW3","1","RotaryEncoder_Switch","Rotary_Encoder:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx","~","PEC12R-3220F-S0024 ",""
-"TH1","1","100k 200 C","Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical","~","B57560G1104F000","217796-1021 "
-"U1","1","RP2350_60QFN","RP2350_60QFN_minimal:RP2350-QFN-60-1EP_7x7_P0.4mm_EP3.4x3.4mm_ThermalVias","","SC1509(13) ",""
-"U2","1","LMR51430","Package_TO_SOT_SMD:SOT-23-6","https://www.ti.com/lit/ds/symlink/lmr51430.pdf","LMR51430YFDDCR",""
-"U3","1","W25Q128JVS","Package_SO:SOIC-8_5.3x5.3mm_P1.27mm","http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf","W25Q128JVSIM TR ",""
-"U4","1","DRV8350S","DRV8350S:RTV0032E","https://www.ti.com/lit/gpn/drv8350","DRV8350SRTVT",""
-"U5","1","WE-TVS-82400102","Package_TO_SOT_SMD:SOT-23-6","https://www.we-online.com/components/products/datasheet/82400102.pdf","82400102",""
-"U6,U7,U8","3","INA240A2PW","Package_SO:TSSOP-8_4.4x3mm_P0.65mm","http://www.ti.com/lit/ds/symlink/ina240.pdf","INA240A2PWR",""
-"U9","1","LMR38020SDDAR","LMR38020_footprints:DDA0008E-MFG","https://www.ti.com/lit/gpn/lmr38020","LMR38020SDDAR",""
-"U10","1","TPS62822DLC","Package_SON:Texas_VSON-HR-8_1.5x2mm_P0.5mm","http://www.ti.com/lit/ds/symlink/tps62823.pdf","TPS62822DLCR",""
-"Y1","1","ABM8-272-T3","Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm","~","ABM8-272-T3 ",""
+Reference,Qty,Value,Footprint,Datasheet,MPN,MPN2
+"C1,C2,C8,C9,C15,C25,C42,C43,C44,C53,C55,C56,C60,C62,C63,C66,C67,C69,C70",19,100nF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,C0603C104K5RACAUTO,
+"C3,C10,C17",3,47uF,Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,~, GRM32ER61C476KE15L ,
+"C4,C6,C7",3,1uF,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,GRM188D72A105KE01J,
+"C5,C13,C39",3,0.1uF 100V,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,HMK107B7104KAHT,
+"C11,C23,C26,C27,C28,C57",6,4.7uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,"KGM15BR50J475KT,MCASL168BD7475KTCA01",
+C12,1,120pF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~, KGM15ACG1H121JT,
+"C14,C18",2,2.2uF,Capacitor_SMD:C_1210_3225Metric,~,HMK325B7225KN-T,
+C16,1,4.7uF,Capacitor_SMD:C_1210_3225Metric,~,KAM32LR72A475KU,
+"C19,C22",2,22uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,GRM188R60J226MEA0D,
+"C20,C21,C31,C49,C50,C51,C54,C59,C61,C64,C68,C71",12,100pF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,"0603YC101KAT2A,C0402C101K3RACAUTO ",
+"C24,C29",2,15p,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,06033A150JAT2A,
+"C30,C37",2,330uF 100V,EEVFK2A331M:EEEFK0J103SM,~,EEV-FK2A331M,
+"C32,C34",2,1uF 16V,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,GXT188R71C105KE13D,
+C33,1,0.047uF,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,C2012X7R2A473K125AA,
+"C35,C36,C38,C41",4,1uF 100V,Capacitor_SMD:C_1206_3216Metric,~,CL31B105KCHNNNE ,
+C40,1,10uF 100V,Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder,~,CGA9N3X7S2A106K230KE,
+"C45,C46,C47",3,C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,,
+"C48,C52,C65",3,10pF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,06033A100KAT2A,
+"C58,C72",2,0.01uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,GCM188R71H103KA37J,
+D1,1,SS12,Diode_SMD:D_SMA,https://www.vishay.com/docs/88746/ss12.pdf,SS12,
+D2,1,SS14,Diode_SMD:D_SMA,https://www.vishay.com/docs/88746/ss12.pdf,SS14,
+D3,1,LED,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,,
+F1,1,Fuse,Fuse:Fuse_Schurter_UMZ250,~,0463030.ER,
+"H1,H2,H3,H4",4,MountingHole,MountingHole:MountingHole_2.7mm_M2.5_ISO14580,~,,
+J1,1,Conn_01x10,Connector_JST:JST_PHD_B10B-PHDSS_2x05_P2.00mm_Vertical,~,,
+J2,1,Heat Mat,Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical,https://docs.rs-online.com/bb5a/A700000008849874.pdf,217796-1021 ,
+J3,1,I2C CONN,Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical,~,22/11/2042,
+J4,1,USB_C_Receptacle_USB2.0_14P,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,TYPE-C-31-M-12,
+J5,1,SM03B-SRSS-TB,Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal,~,SM03B-SRSS-TB(LF)(SN) ,
+J6,1,Conn_01x05,Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical,~, 22-11-2052,22/01/2051
+J7,1,Conn_01x02,Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical,https://lcsc.com/product-detail/plug_Changzhou-Amass-Elec-XT30U-M_C99101.html?s_z=n_XT30U,XT30U-M,
+J8,1,Conn_01x03,Connector_AMASS:AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal,https://lcsc.com/product-detail/plug_Changzhou-Amass-Elec-MR30PW-F20-G-Y_C19268035.html?s_z=n_MR30PW-FB,MR30PW-F20.G.Y,
+L1,1,15uH,Inductor_SMD:L_Coilcraft_MSS1210-XXX,~,MSS1210-153MED,
+L2,1,470nH,Inductor_SMD_Wurth:L_Wurth_WE-LQSH-2010,~,74479275147,
+L3,1,15uH,Inductor_SMD:L_Coilcraft_MSS1038-XXX,~,MSS1038-153MLB,
+L4,1,3.3uH,RP2350_60QFN_minimal:L_pol_2016,~,AOTA-B201610S3R3-101-T,
+Q1,1,DMN3053L-7,Package_TO_SOT_SMD:SOT-23,http://www.diodes.com/assets/Datasheets/ds31347.pdf, DMN3053L-7,
+"Q2,Q3,Q4,Q5,Q6,Q7",6,SIR680LDP,Package_SO:PowerPAK_SO-8_Single,https://www.farnell.com/datasheets/3158447.pdf,SIR680LDP,
+"R1,R2,R15,R17",4,10k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~," AC0603JR-7W10KL,CRCW060310K0FKEI",
+R3,1,422k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,ERJ-3EKF4223V ,
+R4,1,22.1k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,CRCW060322K1FKEBC,
+"R5,R9,R19,R20,R21,R22,R26",7,1k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,RC0603FR-101KL ,
+"R6,R7",2,5.1k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,CR0603-FX-5101ELF ,
+"R8,R25",2,4.7k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,RC0603FR-7W4K7L ,
+"R10,R11",2,100k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,CRCW0603100KFKEA,
+R12,1,100k,Resistor_SMD:R_0603_1608Metric,~, ERJ-PB3B1003V,
+R13,1,453k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,CR0603-FX-4533ELF ,
+R14,1,64.9k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,CRCW060364K9FKEA,
+R16,1,40.2k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,CR0603-FX-4022ELF ,
+"R18,R24",2,27,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,CR0603-JW-270ELF ,
+R23,1,33,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,AC0603DR-0733RL ,
+R27,1,330,Resistor_SMD:R_0603_1608Metric,~,CRCW0603330RFKEC,
+"R28,R29,R30",3,2m,Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,~,WSLP25122L000FEA,
+"R31,R32,R33",3,R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~,,
+"SW1,SW2",2,SW_Push,Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816,~,4.34133E+11,
+TH1,1,100k 200 C,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,~,B57560G1104F000,217796-1021 
+"TP_1,TP_3,TP_12V1,TP_GND1",4,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~,,
+U1,1,LMR51430,Package_TO_SOT_SMD:SOT-23-6,https://www.ti.com/lit/ds/symlink/lmr51430.pdf,LMR51430YFDDCR,
+U2,1,WE-TVS-82400102,Package_TO_SOT_SMD:SOT-23-6,https://www.we-online.com/components/products/datasheet/82400102.pdf,82400102,
+U3,1,LMR38020SDDAR,LMR38020_footprints:DDA0008E-MFG,https://www.ti.com/lit/gpn/lmr38020,LMR38020SDDAR,
+U4,1,TPS62822DLC,Package_SON:Texas_VSON-HR-8_1.5x2mm_P0.5mm,http://www.ti.com/lit/ds/symlink/tps62823.pdf,TPS62822DLCR,
+U5,1,RP2350_60QFN,RP2350_60QFN_minimal:RP2350-QFN-60-1EP_7x7_P0.4mm_EP3.4x3.4mm_ThermalVias,,SC1509(13) ,
+U6,1,W25Q128JVS,Package_SO:SOIC-8_5.3x5.3mm_P1.27mm,http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf,W25Q128JVSIM TR ,
+U7,1,DRV8350S,DRV8350S:RTV0032E,https://www.ti.com/lit/gpn/drv8350,DRV8350SRTVT,
+"U8,U9,U10",3,INA240A2PW,Package_SO:TSSOP-8_4.4x3mm_P0.65mm,http://www.ti.com/lit/ds/symlink/ina240.pdf,INA240A2PWR,
+Y1,1,ABM8-272-T3,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,~,ABM8-272-T3 ,
