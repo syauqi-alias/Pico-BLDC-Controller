@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.7,
-          "height": 2.7,
-          "width": 2.7
+          "drill": 0.3302,
+          "height": 0.629999,
+          "width": 0.629999
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -72,6 +72,10 @@
           ""
         ],
         [
+          "lib_footprint_issues|120360000|84412500|dcbf778b-8147-4757-8bf1-558e26e62559|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "lib_footprint_mismatch|127637481|87500000|5c417ff7-4f41-4e04-b914-7cf6803cf63d|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -93,10 +97,6 @@
         ],
         [
           "lib_footprint_mismatch|204860000|92552500|749dd826-1bbe-4838-9d22-606031c9a395|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|206500000|61500000|1f1bc253-d8e3-4dc4-a07d-64995ea79404|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -634,7 +634,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Pico-BLDC-Controller.step",
@@ -661,39 +661,21 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Reference",
           "name": "Reference",
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": false
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": false
         },
         {
@@ -704,8 +686,26 @@
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
           "show": false
         },
         {
@@ -721,7 +721,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "MPN2",
           "name": "MPN2",
           "show": true
@@ -771,7 +771,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
