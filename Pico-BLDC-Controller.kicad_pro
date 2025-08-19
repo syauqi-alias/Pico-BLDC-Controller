@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3302,
-          "height": 0.629999,
-          "width": 0.629999
+          "drill": 1.0,
+          "height": 1.4,
+          "width": 1.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -68,11 +68,7 @@
           ""
         ],
         [
-          "courtyards_overlap|202373715|92495000|6e675878-d666-4d56-a31d-833c0a37e1e7|749dd826-1bbe-4838-9d22-606031c9a395",
-          ""
-        ],
-        [
-          "lib_footprint_issues|120360000|84412500|dcbf778b-8147-4757-8bf1-558e26e62559|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|202717506|92495000|36555989-185f-446c-8494-1166b765f913|6e675878-d666-4d56-a31d-833c0a37e1e7",
           ""
         ],
         [
@@ -84,19 +80,19 @@
           "it is the same footprint but not sure why is says not matching"
         ],
         [
-          "lib_footprint_mismatch|187440000|93502500|27b5e2a1-09e1-44ad-a6f0-22ec8d7760f9|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|187320000|92392500|8fe9787e-8080-4818-8498-1b8a03d9afa6|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|191730000|67072500|85441630-2806-41f8-a5a9-540f58eccb1f|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|191628750|67362500|7c40be7a-4d6c-49f5-83f4-270737f333a7|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|191750000|54082500|46a081dd-fa16-467c-8ef0-23cd7ff1fef6|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|191770000|54842500|205b5c99-845d-4122-828a-020a0eebf71e|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|204860000|92552500|749dd826-1bbe-4838-9d22-606031c9a395|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|206500000|61500000|1f1bc253-d8e3-4dc4-a07d-64995ea79404|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -634,7 +630,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerber/",
+      "plot": "Physical drawing/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Pico-BLDC-Controller.step",

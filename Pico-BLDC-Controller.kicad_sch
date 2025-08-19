@@ -6886,23 +6886,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6927,7 +6931,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6945,7 +6949,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6954,9 +6958,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -6964,6 +6968,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -10508,10 +10532,22 @@
 		(uuid "620d48f6-4809-4660-b1c8-02d3165b5c2c")
 	)
 	(junction
+		(at 218.44 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "620e73e0-e944-4427-8159-b1fb295fd26c")
+	)
+	(junction
 		(at 502.92 339.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6243e71f-795c-49b4-88b7-56eb4bc3d474")
+	)
+	(junction
+		(at 208.28 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6274191c-2db8-4be7-8441-287c89b77553")
 	)
 	(junction
 		(at 459.74 77.47)
@@ -10872,6 +10908,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acb71fc1-0de4-4039-80e6-594b2a9739aa")
+	)
+	(junction
+		(at 194.31 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ace70400-cd9d-47ff-b3e4-fd77c0ddd33b")
 	)
 	(junction
 		(at 204.47 91.44)
@@ -11827,6 +11869,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 234.95) (xy 171.45 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1624f708-3975-4c8c-8aca-a1fd138582f9")
+	)
+	(wire
+		(pts
 			(xy 330.2 124.46) (xy 330.2 127)
 		)
 		(stroke
@@ -12034,6 +12086,16 @@
 			(type default)
 		)
 		(uuid "20474e65-353f-4baa-8999-a19065b12c0f")
+	)
+	(wire
+		(pts
+			(xy 194.31 248.92) (xy 208.28 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20da3f0e-5829-4a5a-a43a-870afa98801e")
 	)
 	(wire
 		(pts
@@ -12474,6 +12536,16 @@
 			(type default)
 		)
 		(uuid "309e2ee7-e133-4cd7-93b3-4680bcb2b228")
+	)
+	(wire
+		(pts
+			(xy 208.28 251.46) (xy 208.28 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e05935-09a1-4b69-8526-30ee8af87162")
 	)
 	(wire
 		(pts
@@ -14148,6 +14220,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 248.92) (xy 194.31 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d85e72-870f-46d5-b1a5-cbab91f27a2e")
+	)
+	(wire
+		(pts
 			(xy 439.42 307.34) (xy 439.42 302.26)
 		)
 		(stroke
@@ -14185,6 +14267,16 @@
 			(type default)
 		)
 		(uuid "7694d817-922c-4978-9d20-aa7875a7a94c")
+	)
+	(wire
+		(pts
+			(xy 194.31 234.95) (xy 194.31 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "771ec0a0-df52-434f-ade3-8f7e70b74493")
 	)
 	(wire
 		(pts
@@ -15248,6 +15340,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 248.92) (xy 218.44 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9871379c-bb8c-464b-a968-61f0eb652fbb")
+	)
+	(wire
+		(pts
 			(xy 523.24 248.92) (xy 530.86 248.92)
 		)
 		(stroke
@@ -15989,6 +16091,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 234.95) (xy 218.44 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6897fdd-c3b3-4694-9792-5c3c797f5e81")
+	)
+	(wire
+		(pts
 			(xy 72.39 53.34) (xy 72.39 54.61)
 		)
 		(stroke
@@ -16086,6 +16198,16 @@
 			(type default)
 		)
 		(uuid "b84ecae3-183b-4800-87d0-5a2dc8a5e6f5")
+	)
+	(wire
+		(pts
+			(xy 242.57 234.95) (xy 242.57 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e9be6d-28da-4aad-a4ef-76e49df017e6")
 	)
 	(wire
 		(pts
@@ -18089,6 +18211,16 @@
 			(type default)
 		)
 		(uuid "f7f2cc88-97a3-4afb-b9f1-92b76e2c114e")
+	)
+	(wire
+		(pts
+			(xy 218.44 248.92) (xy 208.28 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f83b67a7-af9e-4964-8149-147174062c79")
 	)
 	(wire
 		(pts
@@ -33023,70 +33155,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 217.17 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40fa1a06-4265-4637-9b8a-c115b8e5f50d")
-		(property "Reference" "H1"
-			(at 219.71 237.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 219.71 240.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580"
-			(at 217.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 217.17 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/1b750e20-d5f6-49d9-91dd-67f1bfdfac85"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 388.62 336.55 0)
 		(unit 1)
@@ -36408,70 +36476,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 234.95 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "795f53ea-1ae9-46e2-bfa6-e54640487a0a")
-		(property "Reference" "H2"
-			(at 237.49 237.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 237.49 240.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580"
-			(at 234.95 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 234.95 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Pico-BLDC-Controller"
-				(path "/1b750e20-d5f6-49d9-91dd-67f1bfdfac85"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Current:INA240A2PW")
 		(at 506.73 158.75 0)
 		(unit 1)
@@ -36570,70 +36574,6 @@
 			(project "Pico-BLDC-Controller"
 				(path "/1b750e20-d5f6-49d9-91dd-67f1bfdfac85"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 252.73 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79f9d17b-4c96-4396-bdd8-4f5b55b02d5d")
-		(property "Reference" "H3"
-			(at 255.27 237.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 255.27 240.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580"
-			(at 252.73 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 252.73 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Pico-BLDC-Controller"
-				(path "/1b750e20-d5f6-49d9-91dd-67f1bfdfac85"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -37439,70 +37379,6 @@
 			(project "Pico-BLDC-Controller"
 				(path "/1b750e20-d5f6-49d9-91dd-67f1bfdfac85"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 270.51 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85d5d43c-cb0a-4085-8634-a4b68e1b0879")
-		(property "Reference" "H4"
-			(at 273.05 237.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 273.05 240.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580"
-			(at 270.51 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 270.51 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Pico-BLDC-Controller"
-				(path "/1b750e20-d5f6-49d9-91dd-67f1bfdfac85"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -39146,6 +39022,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 171.45 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1d0c815-23f5-43fb-b650-73584436bc14")
+		(property "Reference" "H1"
+			(at 173.99 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 173.99 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 171.45 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 171.45 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9b15af0-0a83-4ac5-96f1-6f5543a1d881")
+		)
+		(instances
+			(project ""
+				(path "/1b750e20-d5f6-49d9-91dd-67f1bfdfac85"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_RaspberryPi_RP2350:R")
 		(at 501.65 273.05 180)
 		(unit 1)
@@ -39884,6 +39827,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 242.57 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad069e9f-7b14-4105-9a1d-bb9f66dab9d6")
+		(property "Reference" "H4"
+			(at 245.11 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 245.11 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 242.57 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 242.57 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fd3711f-37f3-4e8f-b62c-a07af13b6dac")
+		)
+		(instances
+			(project "Pico-BLDC-Controller"
+				(path "/1b750e20-d5f6-49d9-91dd-67f1bfdfac85"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_RaspberryPi_RP2350:SW_Push")
 		(at 127.635 140.97 90)
 		(unit 1)
@@ -40576,6 +40586,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 218.44 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9675d86-6ffc-4fee-9bc1-da66afb448a8")
+		(property "Reference" "H3"
+			(at 220.98 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 220.98 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 218.44 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 218.44 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63c950cc-b4d8-41fa-9479-5894a69aee87")
+		)
+		(instances
+			(project "Pico-BLDC-Controller"
+				(path "/1b750e20-d5f6-49d9-91dd-67f1bfdfac85"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:WE-TVS-82400102")
 		(at 271.78 110.49 0)
 		(unit 1)
@@ -41071,6 +41148,70 @@
 			(project "Pico-BLDC-Controller"
 				(path "/1b750e20-d5f6-49d9-91dd-67f1bfdfac85"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c15f35dd-373d-4d73-8a96-7b2bb7fdeaca")
+		(property "Reference" "#PWR03"
+			(at 208.28 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.407 255.8542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7264c261-4c4d-4287-bfc9-16fb293e4cc0")
+		)
+		(instances
+			(project "Pico-BLDC-Controller"
+				(path "/1b750e20-d5f6-49d9-91dd-67f1bfdfac85"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -41965,6 +42106,73 @@
 			(project "Pico-BLDC-Controller"
 				(path "/1b750e20-d5f6-49d9-91dd-67f1bfdfac85"
 					(reference "C72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 194.31 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf7e2c9a-7e31-4300-8cd0-8701832266ec")
+		(property "Reference" "H2"
+			(at 196.85 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 196.85 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 194.31 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 194.31 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "085d98eb-8fe6-4194-b3ea-695601849d4d")
+		)
+		(instances
+			(project "Pico-BLDC-Controller"
+				(path "/1b750e20-d5f6-49d9-91dd-67f1bfdfac85"
+					(reference "H2")
 					(unit 1)
 				)
 			)
