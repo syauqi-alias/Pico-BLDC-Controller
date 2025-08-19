@@ -1,10 +1,11 @@
 # Pico-BLDC-Controller
 
+![Status](https://img.shields.io/badge/Status-In%20Development-blue)
+
 ![Prototype rendered](Pico-BLDC-Controller_top.png)
 
 ![Prototype rendered](Pico-BLDC-Controller_bottom.png)
 
-[![Status](https://img.shields.io/badge/Status-In%20Development-blue)](https://github.com/your-username/Pi-BLDC-Controller)
 
 This project documents the design of a custom Brushless DC (BLDC) motor controller for a hotplate magnetic stirrer, intended for integration with an Opentrons automated liquid handling robot at the Manufacturing Future Lab, University College London.
 
