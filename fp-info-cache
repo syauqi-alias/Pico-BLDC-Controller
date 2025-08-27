@@ -1,4 +1,4 @@
-26038955604093573
+26040711910852643
 Amphenol_FPC_16
 AMPHENOL_F3311A7H121016E200
 
@@ -104068,6 +104068,13 @@ Varistor VF
 0
 2
 2
+high_volt
+Symbol_HighVoltage_Triangle_6x6mm_silkscreen
+High voltage symbol, in triangle, 6x6mm, copper layer
+warning graphic
+0
+0
+0
 logo
 syauqi-logo
 

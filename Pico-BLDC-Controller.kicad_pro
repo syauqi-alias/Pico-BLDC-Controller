@@ -72,16 +72,8 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|127637481|87500000|5c417ff7-4f41-4e04-b914-7cf6803cf63d|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|171050000|59200000|35c74edb-4c0e-47ea-97b5-78a4f8aac14e|00000000-0000-0000-0000-000000000000",
           "it is the same footprint but not sure why is says not matching"
-        ],
-        [
-          "lib_footprint_mismatch|206500000|61500000|1f1bc253-d8e3-4dc4-a07d-64995ea79404|00000000-0000-0000-0000-000000000000",
-          ""
         ],
         [
           "silk_edge_clearance|116600000|42552500|35eb3540-e865-4964-89dd-5615cea7863a|8a34ea0f-568c-4c24-8b96-ad8d696659c9",
