@@ -76,18 +76,6 @@
           "it is the same footprint but not sure why is says not matching"
         ],
         [
-          "silk_edge_clearance|116600000|42552500|35eb3540-e865-4964-89dd-5615cea7863a|8a34ea0f-568c-4c24-8b96-ad8d696659c9",
-          ""
-        ],
-        [
-          "silk_edge_clearance|126000000|42540000|35eb3540-e865-4964-89dd-5615cea7863a|d2083417-4862-42f2-a161-cd8d97e68dc9",
-          ""
-        ],
-        [
-          "silk_edge_clearance|126000000|42552500|35eb3540-e865-4964-89dd-5615cea7863a|8b160e80-ba68-4e9f-883a-e6d40d33d057",
-          ""
-        ],
-        [
           "silk_edge_clearance|208335000|55640000|35eb3540-e865-4964-89dd-5615cea7863a|0cf3c385-9b45-44c8-9b26-a9829b19a27d",
           ""
         ],
