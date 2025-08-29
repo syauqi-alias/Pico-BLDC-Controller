@@ -46,12 +46,14 @@ Once the hardware is validated, a longer-term goal is to develop custom firmware
 
 ## Current Status
 
-**Status:** In Development (Last Updated: 28/07/2025)
+**Status:** In Development (Last Updated: 29/08/2025)
 
 * [x] Component selection finalized.
 * [x] Initial schematic design complete.
 * [x] Schematic peer review in progress.
 * [x] PCB layout design.
+* [X] PCB peer review 
+* [X] Send out PCB to manufacturer
 * [ ] Prototyping and hardware testing.
 * [ ] Firmware development.
 
